@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>firebase phone number auth</title>
+    <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+    <script>
+
+        var config = {
+            apiKey: "AIzaSyCDBA9as8Rv5nqy2JwX6Ja1E9ziOKJyazI",
+            authDomain: "fir-chat-516bc.firebaseapp.com",
+            databaseURL: "https://fir-chat-516bc.firebaseio.com",
+            projectId: "fir-chat-516bc",
+            storageBucket: "",
+            messagingSenderId: "541176602335"
+        };
+
+        firebase.initializeApp(config);
+
+    </script>
+    <style>
+        button {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    phone <input>
+
+    <button onclick="auth()">auth</button>
+    <label>PHONE:</label>
+
+    <div id="recaptcha"></div>
+
+
+    <script src="index.js"></script>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</html>
